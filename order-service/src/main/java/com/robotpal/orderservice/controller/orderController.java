@@ -10,7 +10,9 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/order")
 @AllArgsConstructor
 public class orderController {
+
     private final OrderService orderService;
+
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public String placeOrder(@RequestBody OrderRequest orderRequest){
