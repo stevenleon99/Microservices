@@ -22,6 +22,7 @@ public class InventoryController {
     public List<InventoryResponse> isInStock(@RequestParam List<String> skuCode){
         log.info("Checking the Inventory");
         return inventoryService.isInInventory(skuCode);
+
     }
 
 
