@@ -50,6 +50,12 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+
 <!--        <dependency>-->
 <!--            <groupId>com.github.docker-java</groupId>-->
 <!--            <artifactId>docker-java-api</artifactId>-->
